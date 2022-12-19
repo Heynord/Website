@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeaea;
+    margin: 0px;
+}
+
+.login-button {
+    float: right;
+    padding: 17px;
+    color: white;
+    text-decoration: none;
+    transition: 100ms;
+}
+
+.login-button:hover {
+    background-color: #4c4d53;
+}
+
+.page-wrapper {
+    margin: auto;
+    margin-top: 68px;
+}
+
+.tab-nav {
+    height: 53px;
+    top: 0px;
+    position: fixed;
+    background-color: #35363A;
+    width: 100%;
+}
+
+.tab-heading {
+    text-align: center;
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+.tab-content {
+    margin-top: 80px;
+    width: 50%;
+    height: 1000px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 3px;
+    border-radius: 3px
+}
+
+.tab-nav a img {
+    width: 220px;
+    padding: 8px 0 0 10px;
+}
+
+article {
+    padding: 20px;
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+article img {
+    width: 150px;
+    border-radius: 3px;
+}
+
+footer {
+    width: 100%;
+    height: 42px;
+    position: absolute;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    background-color: #35363A;
+}

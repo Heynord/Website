@@ -62,8 +62,10 @@ article {
     border-bottom: 1px solid rgb(172, 172, 172);
 }
 
+/* Комментарий */
+
 article img {
-    width: 150px;
+    width: 550px;
     border-radius: 3px;
 }
 

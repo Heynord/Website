@@ -69,12 +69,9 @@ article {
 }
 
 article img {
+    float: left;
     width: 150px;
     border-radius: 3px;
-}
-
-article {
-    display: flex;
 }
 
 footer {
@@ -86,12 +83,9 @@ footer {
     color: white;
     background-color: #35363A;
 }
+
 .movie-info {
-    display: flex;
-    flex-direction: column;
-    float: right;
-    flex-grow: 1;
-    margin-left: 20px;
+    margin-left: 180px;
 }
 
 .title-movie {
@@ -106,7 +100,7 @@ footer {
     color: #4c4d53;
 }
 
-.movie-ganre, .movie-date {
+.movie-genre, .movie-date {
     display: block;
 }
 

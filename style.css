@@ -41,6 +41,12 @@ body {
     font-size: 45px;
 }
 
+@media (max-width: 550px) {
+    .tab-heading {
+        font-size: 35px;
+    }
+}
+
 .tab-content {
     width: 50%;
     height: 1000px;
@@ -67,6 +73,10 @@ article img {
     border-radius: 3px;
 }
 
+article {
+    display: flex;
+}
+
 footer {
     width: 100%;
     height: 42px;
@@ -75,4 +85,35 @@ footer {
     padding-top: 20px;
     color: white;
     background-color: #35363A;
+}
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.title-movie {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black !important;
+}
+
+.movie-details {
+    font-size: 14px;
+    color: #4c4d53;
+}
+
+.movie-ganre, .movie-date {
+    display: block;
+}
+
+.movie-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 10px;
 }

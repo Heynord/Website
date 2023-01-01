@@ -92,6 +92,11 @@ footer {
     font-size: 18px;
     font-weight: bold;
     color: black !important;
+    transition: color 100ms ease;
+}
+
+.title-movie:hover {
+    color: rgb(140, 63, 0) !important;
 }
 
 .movie-details {

@@ -5,6 +5,10 @@ body {
     margin: 0px;
 }
 
+h2, h3, h4 {
+    margin: 0;
+}
+
 .login-button {
     float: right;
     padding: 17px;
@@ -115,4 +119,46 @@ footer {
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-top: 10px;
+}
+
+.tab-content-films {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 3px;
+    border-radius: 3px
+}
+
+.tab-heading-films {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.movie-details-info {
+    margin-top: 15px;
+}
+
+.header-synopsis {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.synopsis {
+    padding: 10px 20px 51px 20px;
+}
+
+.movie-synopsis {
+    border-bottom: 1px solid rgb(172, 172, 172);;
+}
+
+.movie-trailer {
+    text-align: center;
+    padding: 10px;
+}
+
+iframe {
+    margin-bottom: 30px;
 }

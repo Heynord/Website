@@ -11,13 +11,17 @@ h2, h3, h4 {
 
 .login-button {
     float: right;
-    padding: 17px;
+    padding: 18px;
     color: white;
     text-decoration: none;
-    transition: 100ms;
+    transition: 200ms;
 }
 
 .login-button:hover {
+    background-color: #4c4d53;
+}
+
+.login-button.active {
     background-color: #4c4d53;
 }
 
@@ -29,7 +33,6 @@ h2, h3, h4 {
 .tab-nav {
     display: block;
     overflow: hidden;
-    height: 53px;
     top: 0px;
     position: fixed;
     background-color: #35363A;
@@ -39,16 +42,113 @@ h2, h3, h4 {
 
 .tab-heading {
     text-align: center;
-    padding: 10px;
+    padding: 20px 0;
     border-bottom: 1px solid rgb(172, 172, 172);
     font-weight: bold;
-    font-size: 45px;
+    font-size: 28px;
 }
 
 @media (max-width: 550px) {
     .tab-heading {
         font-size: 35px;
     }
+}
+
+small.error {
+    display: none;
+    padding: 0 0 20px 0;
+}
+
+small.user-error {
+    display: block;
+    padding: 0 0 20px 0;
+    color: red;
+}
+
+.tab-signin-box {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 111px;
+}
+
+.tab-signin-box-content {
+    width: 390px;
+    margin: 0 auto;
+}
+
+fieldset {
+    margin: 20px 26px 20px 26px;
+    padding: 0px 40px 35px 40px;
+    text-align: left;
+    border-radius: 4px;
+    border: 1px rgb(175, 175, 175) solid;
+    background: white;
+}
+
+input {
+    width: 98.09%;
+    margin: 5px 0 5px 0;
+    height: 30px;
+    text-align: left;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 4px;
+}
+
+#email, #password, #fname, #lname {
+    margin-bottom: 15px;
+}
+
+#submit {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fc0;
+    background: linear-gradient(to bottom, rgb(255, 236, 160), rgb(238, 190, 0));
+    cursor: pointer;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    border-radius: 4px;
+    transition: 0.05s linear;
+}
+
+#submit:hover {
+    background-color: rgb(236, 189, 0);
+    background: linear-gradient(to bottom, rgb(247, 228, 155), rgb(230, 184, 0));
+}
+
+#submit:active {
+    box-shadow: inset 2px 2px 2px rgb(196, 156, 0), 0px 0px 5.5px rgb(163, 131, 0);
+    background: linear-gradient(to bottom, rgb(230, 184, 0), rgb(241, 181, 0));
+
+}
+
+.row div {
+    margin-bottom: 6px;
+}
+
+.row a {
+    text-decoration: none;
+    color: #0074da;
+}
+
+.row a:hover {
+    text-decoration: underline;
+    color: #b84747;
+}
+
+#checkbox {
+    width: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.showpassword span{
+    position: relative;
+    top: 1px;
+    margin: 9px;
 }
 
 .tab-content {
@@ -60,8 +160,7 @@ h2, h3, h4 {
 }
 
 .tab-nav a img {
-    width: 220px;
-    padding: 8px 0 0 10px;
+    padding: 6px 0 0 18px;
 }
 
 article {

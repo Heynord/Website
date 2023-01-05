@@ -34,10 +34,18 @@
         <div class="page-wrapper">
             <div class="tab-signin-box">
                 <div class="tab-signin-box-content">
-                    <!-- Sign-in user form -->
-                    <form name="SigninForm" method="post">
+                    <!-- Creating user account form -->
+                    <form name="CreateForm" id="CreateForm" method="post">
                         <fieldset>
-                            <div class="tab-heading">Войти</div>
+                            <div class="tab-heading">Создать аккаунт</div>
+                            <label for="fname">Имя*</label>
+                            <input class="field" type="text" id="fname" name="fname" value="" pattern="^[A-Za-zА-Яа-я].{1,29}$" required/>
+                            <small class="error" id="fname_error"></small>
+    
+                            <label for="lname">Фамилия*</label>
+                            <input class="field" type="text" id="lname" name="lname" value="" pattern="^[A-Za-zА-Яа-я].{1,29}$" required/>
+                            <small class="error" id="lname_error"></small>
+    
                             <label for="email">Email*</label>
                             <input class="field" type="email" id="email" name="email" value="" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" required/>
                             <small class="error" id="email_error"></small>
@@ -48,10 +56,10 @@
     
                             <div class="showpassword"><input type="checkbox" id="checkbox" name="checkbox" onclick="ShowPassword()"><span>Показать пароль</span></div>
                             <p class="required">* обязательно</p>
-                            <input type="submit" id="submit" value="Войти" />
+                            <input type="submit" id="submit" value="Создать аккаунт">
                             <div class="row">
-                                <div>У Вас ещё нет аккаунта?</div>
-                                <a href="create-account.html">Создать новый аккаунт</a>
+                                <div>У Вас уже есть аккаунт?</div>
+                                <a href="login.html">Войти</a>
                             </div>
                         </fieldset>
                     </form>
@@ -63,5 +71,5 @@
         Ссылка на донат: donationalerts.com
     </footer>
 </body>
-<script src="login.js"></script>
+<script src="create-account.js"></script>
 </html>

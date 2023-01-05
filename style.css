@@ -176,16 +176,6 @@ article img {
     border-radius: 3px;
 }
 
-footer {
-    width: 100%;
-    height: 42px;
-    position: absolute;
-    text-align: center;
-    padding-top: 20px;
-    color: white;
-    background-color: #35363A;
-}
-
 .movie-info {
     margin-left: 180px;
 }
@@ -260,4 +250,14 @@ footer {
 
 iframe {
     margin-bottom: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 42px;
+    position: absolute;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    background-color: #35363A;
 }

@@ -166,7 +166,7 @@ input {
 article {
     display: block;
     overflow: hidden;
-    padding: 20px;
+    padding: 30px;
     border-bottom: 1px solid rgb(172, 172, 172);
 }
 
@@ -220,26 +220,28 @@ article img {
 
 .tab-heading-films {
     text-align: left;
-    padding: 10px;
+    padding: 20px;
     border-bottom: 1px solid rgb(172, 172, 172);
     font-weight: bold;
     font-size: 40px;
 }
 
 .movie-details-info {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .header-synopsis {
     text-align: center;
-    margin-top: 5px;
 }
 
 .synopsis {
-    padding: 10px 20px 51px 20px;
+    margin: 0;
+    padding: 20px;
+    text-align: justify;
 }
 
 .movie-synopsis {
+    padding: 10px;
     border-bottom: 1px solid rgb(172, 172, 172);;
 }
 

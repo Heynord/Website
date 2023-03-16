@@ -185,7 +185,7 @@ article img {
     font-size: 25px;
     font-weight: bold;
     color: black !important;
-    transition: color 100ms ease;
+    transition: color 200ms ease;
 }
 
 .title-movie:hover {
@@ -220,7 +220,7 @@ article img {
 
 .tab-heading-films {
     text-align: left;
-    padding: 20px;
+    padding: 30px;
     border-bottom: 1px solid rgb(172, 172, 172);
     font-weight: bold;
     font-size: 40px;
